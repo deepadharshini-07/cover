@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:03:12:2024
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,10 +31,46 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIXEL PERFECT: Book Cover</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="book-cover">
+        <div class="expert-insight">
+            <p>EXPERT INSIGHT</p>
+        </div>
+        <div class="main-title">
+            <h1>AI IN ACTION</h1>
+        </div>
+        <div class="subtitle">
+            <p>Building Smarter Systems with Modern Techniques</p>
+        </div>
+        <div class="edition-container">
+	<div class="edition">
+            <p>Second Edition</p>
+        </div>
+	<img src="Screenshot 2024-12-03 204610.png" alt="Edition Icon" class="edition-image">
+	</div>
+        <div class="author-publisher-container">
+        <div class="author">
+            <p>Deepadharshini Thanikaivel</p>
+        </div>
+        <div class="publisher">
+            <p>SEC</p>
+        </div>
+    </div>
+</body>
+</html>
+```
 
 ## OUTPUT:
-
+![alt text](<Screenshot 2024-12-03 205916.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
